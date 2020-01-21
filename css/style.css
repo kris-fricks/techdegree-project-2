@@ -13,53 +13,73 @@ body {
 
 header {
     text-align: center;
-    overflow: hidden;
-    padding: 24px;
+    margin-bottom: 20px;
+    
+}
 
+h1 {
+    
+}
+
+h3 {
+    text-transform: uppercase;
+    padding: 50px;
+    padding-top:75px;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-header {
     background-color: whitesmoke;
     padding-top: .5em;
     padding-bottom: .5em;
-    margin-left: 0 auto;
-    margin-right: 50px;
-}
+    margin: auto;
+    max-width: 100%;
 
-.main-nav a {
-    display: inline-block;
-    text-align: center;
-    font-size: 4em;
-    margin: 5px;
-    margin-right: 50px;
-    
-} 
+}
 
 .main-nav ul li {
     list-style-type: none;
     text-transform: uppercase;
     background-color: white;
-    display: block;
-    padding: 10px 50px;
-    margin-bottom: 5px;
+    display: inline-block;
+    padding: 15px 100px;
+    margin-bottom: 7px;
 }
 
 .main-nav a {
     text-decoration: none;
+    text-align: center;
     font-size: .95em;
     font-weight: 900;
     color: #222;
     text-transform: uppercase;
+    width: 100%
     
 }
 
-.main-nav a:hover {
+/* .main-nav a:hover {
     color: #093a58;
+} */
+
+.profile-img {
+    width: 70%;
+    margin-top: 50px;
 }
 
-.section {
-    width: auto;
+.portfolio {
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+
+
 }
+
 
 
 
