@@ -2,36 +2,72 @@
 *{
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    background-color: whitesmoke;
+    
     text-align: center;
     font-size: 24px;
+}
 
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    padding-bottom: 30px;
+    line-height: 32px;
+}
+
+a { 
+color: black 
 }
 
 header {
+    background-color: whitesmoke;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+ul {
+    padding-left: 15px;
+    padding-right: 15px;
     
 }
 
 h1 {
-    
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 h3 {
+    font-size: 1.35rem;
     text-transform: uppercase;
     padding: 50px;
-    padding-top:75px;
+}
+
+h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;;
+    font-size: 1.75rem;
 }
 
 img {
     max-width: 100%;
-    margin-bottom: 20px;
+    margin-top: 30px;;
+    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
 }
 
 .main-header {
@@ -40,27 +76,25 @@ img {
     padding-bottom: .5em;
     margin: auto;
     max-width: 100%;
-
 }
 
 .main-nav ul li {
     list-style-type: none;
     text-transform: uppercase;
     background-color: white;
-    display: inline-block;
-    padding: 15px 100px;
+    padding: 15px;
     margin-bottom: 7px;
+    margin-left: 0;
 }
 
 .main-nav a {
     text-decoration: none;
     text-align: center;
     font-size: .95em;
-    font-weight: 900;
+    font-weight: 700;
     color: #222;
     text-transform: uppercase;
-    width: 100%
-    
+    display: block;
 }
 
 /* .main-nav a:hover {
@@ -68,7 +102,7 @@ img {
 } */
 
 .profile-img {
-    width: 70%;
+    width: 70%;   
     margin-top: 50px;
 }
 
@@ -76,11 +110,40 @@ img {
     background-color: white;
     margin: auto;
     margin-top: 20px;
-
-
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
+footer {
+    background-color: whitesmoke;
+     
+}
 
+.name-bottom {
+    float: left;
+    padding: 40px;
+}
+
+.bottom-nav {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    text-align: right;
+    padding: 40px;
+    float: right;
+}
+
+.group::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+  }
 
 
 
