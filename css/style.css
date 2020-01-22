@@ -33,7 +33,6 @@ header {
 ul {
     padding-left: 15px;
     padding-right: 15px;
-    
 }
 
 h1 {
@@ -53,12 +52,27 @@ h4 {
     font-size: 1.75rem;
 }
 
+hr {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
 img {
     max-width: 100%;
     margin-top: 30px;;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#contact {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+#email {
+    padding-bottom: 75px;
+    padding-top: 0;
 }
 
 a:link {
@@ -97,10 +111,6 @@ a:hover {
     display: block;
 }
 
-/* .main-nav a:hover {
-    color: #093a58;
-} */
-
 .profile-img {
     width: 70%;   
     margin-top: 50px;
@@ -110,13 +120,39 @@ a:hover {
     background-color: white;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 55px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
+.front {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.back {
+    margin-bottom: 0;
+}
+
+.front-end {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills-1 {
+    text-align: left;
+    padding-left: 25px;
+}
+
+.skills-2 {
+    text-align: right;
+    padding-right: 25px;
+}
+
 footer {
     background-color: whitesmoke;
-     
+    margin-top: 0px;
 }
 
 .name-bottom {
@@ -145,5 +181,69 @@ footer {
     clear: both;
   }
 
+@media (min-width: 768px) {
 
+    h1 {
+        font-size: larger;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+
+    h3 {
+        font-size: .6em;
+    }
+
+    header {
+        padding-bottom: 50px;
+    }
+
+    .main-header {
+        padding-bottom: 60px;
+    }
+
+    .main-list-item {
+        background-color: whitesmoke;
+    }
+
+    .main-nav {
+        padding-bottom: 0px;
+    }
+
+    .main-nav ul li {
+        list-style-type: none;
+        text-transform: uppercase;
+        background-color: transparent;
+        margin-bottom: 7px;
+        margin-left: 0;
+        display: inline-block;
+    }
+
+    .main-nav a {
+        text-decoration: none;
+        text-align: center;
+        font-size: .6em;
+        font-weight: 800;
+        color: #222;
+        text-transform: uppercase;
+        display: block;
+    }
+
+    .profile-img {
+        float: right;
+        max-width: 40%;
+        margin-top: 0;
+    }
+
+    .intro {
+        max-width: 60%;
+        font-size: 1.25rem;
+        margin-top: 0;
+        text-align: left;
+        padding-top: 0;
+    }
+
+    .main-nav {
+        padding-bottom: 50px;
+    }
+}
 
