@@ -375,6 +375,7 @@ footer {
 
     section div {
       display: inline-block;
+      vertical-align: top;
     }
 
     .marketing, .travel, .gallery, .search, .spots, .calculator {
