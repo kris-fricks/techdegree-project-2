@@ -145,6 +145,11 @@ a:hover {
     margin-right: auto;
 }
 
+#skills {
+    background-color: #b0e0e6;
+    color: white;
+}
+
 .skills-1 {
     text-align: left;
     padding-left: 25px;
@@ -176,6 +181,10 @@ footer {
 
 .bottom-nav {
     visibility: hidden;
+}
+
+#phone, #email {
+    color: purple;
 }
 
 .group::after {
@@ -364,7 +373,7 @@ footer {
         padding-left: .5em;
         padding-right: .5em;
     }
-    
+
     .front, .back {
         margin: auto;
     }
