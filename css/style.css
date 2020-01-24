@@ -309,7 +309,7 @@ footer {
     .bottom-nav a {
         text-decoration: none;
         text-align: center;
-        font-size: .5em;
+        font-size: .6em;
         font-weight: 700;
         color: #222;
         text-transform: uppercase;
@@ -317,8 +317,8 @@ footer {
     }
 
     .name-bottom {
-        font-size: .6em;
-        padding-top: 30px;
+        font-size: .8em;
+        padding-top: 23px;
     }
 }
 
