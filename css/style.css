@@ -7,7 +7,6 @@
 }
 
 body {
-    
     text-align: center;
     font-size: 24px;
 }
@@ -84,15 +83,10 @@ a:hover {
     color: black;
 }
 
-/* .container {
-    height: 25%;
-} */
-
 .main-header {
     background-color: whitesmoke;
     padding-top: .5em;
     padding-bottom: .5em;
-    /* margin: auto; */
     max-width: 100%;
 }
 
@@ -197,7 +191,7 @@ footer {
     content: '';
     display: table;
     clear: both;
-  }
+}
 
 @media (min-width: 768px) {
     h1 {
@@ -205,10 +199,6 @@ footer {
         margin-top: 15px;
         margin-bottom: 0;
     }
-
-    /* h3 {
-        font-size: .6em;
-    } */
 
     header {
         padding-bottom: 50px;
@@ -253,7 +243,6 @@ footer {
         float: right;
         max-width: 40%;
         margin-top: 0;
-
     }
 
     .intro {
@@ -276,7 +265,6 @@ footer {
     .search, .spots, .calculator {
         float: right;
         width: 48.5%;
-
     }
 
     #skills {
@@ -328,11 +316,29 @@ footer {
     .name-bottom {
         font-size: .6em;
         padding-top: 30px;
-        
     }
 }
 
 @media (min-width: 1024px) {
+    body {
+        font-size: unset;
+    }
+    
+    p {
+        font-size: 1.25em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    h4 {
+        font-size: 1.75em;
+    }
+
+    h5 {
+        font-size: 1.25em;
+    }
     .container {
         height: 400px;
         max-height: 500px;
@@ -347,18 +353,19 @@ footer {
 
     .intro {
         display: inline-block;
-        topmargin
     }
 
     .main-nav {
         padding-top: 0;
         margin-bottom: 50px;
-    }
-
-    .main-nav {
         float: right;
         padding-bottom: 0px;
+    }   
+
+    .main-nav a {
+        font-size: 1em;
     }
+
     .profile-img {
         display: inline-block;
     }
@@ -387,20 +394,13 @@ footer {
     }
 
     .name-bottom {
-        font-size: .8em;
+        font-size: 1.25em;
         padding-top: 23px;
     }
 
     .bottom-nav a {
-        font-size: .6em;
+        font-size: 1em;
     }
-
-   
-
-    
-
-
-    
 }
 
 
